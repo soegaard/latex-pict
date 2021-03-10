@@ -120,13 +120,13 @@
 ;; the text functions:
 
 ;;   #lang at-exp racket
-;;   (require metapict/tex)
+;;   (require latex-pict)
 ;;   @"@"tex-math{ a^2 + b^2 = c^2 }
 
 ;; Or perhaps introduce $ and $$ :
 
 ;;   #lang at-exp racket
-;;   (require metapict/tex)
+;;   (require latex-pict)
 ;;   (define $  tex-math)
 ;;   (define $$ tex-display-math)
 ;;   @"@"${ c = \sqrt{ a^2 + b^2 = c^2} }
